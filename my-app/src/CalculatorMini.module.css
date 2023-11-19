@@ -1,0 +1,57 @@
+.button {
+	margin: 0.3rem 0.2rem;
+	border-radius: 1rem;
+	width: 3rem;
+	height: 3rem;
+	box-shadow: 2px 2px 2px gray;
+	background-color: wheat;
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 250px;
+	padding: 2rem 1rem 1rem 1rem;
+	border: 2px solid beige;
+	border-radius: 1rem;
+	box-shadow: 5px 3px 5px beige;
+}
+
+.display {
+	padding: 0px 3px;
+	text-align: end;
+	font-size: 1.75rem;
+	width: 13.5rem;
+	margin: 0.2rem auto 1.5rem auto;
+	background-color: beige;
+	color: black;
+}
+.equDisplay {
+	padding: 0px 3px;
+	text-align: end;
+	font-size: 1.75rem;
+	width: 13.5rem;
+	margin: 0.2rem auto 1.5rem auto;
+	color: black;
+	background-color: rgb(97, 241, 126);
+}
+
+.bigBtn {
+	width: 4rem;
+}
+
+.equBtn {
+	background-color: rgb(243, 145, 109);
+}
+
+.wrapperOperators {
+	display: flex;
+	flex-direction: column;
+}
+.wrapperButtons {
+	display: flex;
+	flex-direction: row;
+}
